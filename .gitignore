@@ -1,0 +1,16 @@
+# ----------[ Application ]----------------------------------------
+# NPM Likes to make logs
+*.log
+# Node modules
+node_modules
+# Generated images
+*.jpg
+*.jpeg
+*.png
+
+# ----------[ Metadata ]----------------------------------------
+# OS X
+.DS_Store
+# Windows
+desktop.ini
+thumbs.db

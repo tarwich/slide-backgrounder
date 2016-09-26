@@ -1,0 +1,22 @@
+{
+  "name": "slide-backgrounder",
+  "version": "1.0.0",
+  "description": "Create backgrounds for media slides",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tarwich/slide-backgrounder.git"
+  },
+  "keywords": [],
+  "author": "Samuel Dillow",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tarwich/slide-backgrounder/issues"
+  },
+  "homepage": "https://github.com/tarwich/slide-backgrounder#readme",
+  "dependencies": {
+    "eslint-config-tarwich": "github:tarwich/eslint-config-tarwich",
+    "minimist": "1.2.0"
+  }
+}
