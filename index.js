@@ -63,6 +63,7 @@ parameters.push(path.resolve(args._[1]));
 
 // Run!
 console.log('convert', parameters.join(' '));
-let child = childProcess.spawnSync('convert', parameters, {
+
+childProcess.spawnSync('convert', parameters, {
   stdio: ['inherit', 'inherit', 'inherit']
 });
