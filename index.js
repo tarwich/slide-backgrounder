@@ -54,7 +54,7 @@ if (args.blur) parameters.push('-blur', `0x${args.blur}`);
 if (args.fade === true) args.fade = '70';
 if (args.fade) {
   parameters.push(
-    '\(', '+clone', '-fill', 'black', '-colorize', args.fade, '\)',
+    '(', '+clone', '-fill', 'black', '-colorize', args.fade, ')',
     '-compose', 'multiply', '-composite'
   );
 }
